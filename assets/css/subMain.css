@@ -1,0 +1,52 @@
+a{
+    color: #0066b8;
+}
+.featureItem{
+    padding: 40px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ItemDetails {
+    width: 50%;
+    margin-right: 50px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+    
+.ItemDetails p{
+    font-weight:600;
+    line-height: 2;
+    line-break: normal;
+}
+.ItemDetails h1{
+    font-size: 15px;
+}
+.featureItem:nth-of-type(even){
+flex-direction: row-reverse;
+}
+.colored:nth-of-type(even){
+    background-color: #f5f5f5;
+}
+.featureItem:nth-of-type(even){
+    margin-right: 80px;
+    margin-left: 0px;
+}  
+#VScode .CodeHeading{
+text-align: center;
+}
+.VScontent ul{
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    justify-content:center;
+    background-color: blanchedalmond;
+    padding: 10px 20px 10px 20px;
+    
+}
+.VScontent ul li{
+    display: flex;
+}
+.fend{
+    align-items: center;
+   margin-left: 600px;
+}
